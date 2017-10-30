@@ -10,7 +10,7 @@
 	<h1>계산폼</h1>
 <% if(request.getAttribute("error_message")!=null) { %>	
 	<%= request.getAttribute("error_message") %>
-<% } %>
+<% }%>
 	<br>
 	<form action="/calculatorWeb/form/calculate" method="post">
 		<input type="text" name="num1">
